@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="FILEAPPENDER" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="@{sys_log_path}/@{app_name}/@{app_version}/@{app_name}.log"/>
+		<param name="DatePattern" value="'.'yyyy-MM-dd"/>
+		<param name="Append" value="true"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d - %p %m%n"/>
+		</layout>
+	</appender>
+	<appender name="SYSTEMOUTAPPENDER" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d - %p %m%n"/>
+		</layout>
+	</appender>
+    <logger additivity="false" name="org.hibernate.jdbc.AbstractBatcher">
+		<level value="TRACE"/>
+		<appender-ref ref="FILEAPPENDER"/>
+    </logger>        
+	<logger additivity="false" name="org.hibernate">
+		<level value="DEBUG"/>
+		<appender-ref ref="FILEAPPENDER"/>
+    </logger>
+	
+  	<root> 
+  		<level value="debug"/>
+   		<appender-ref ref="FILEAPPENDER" />
+  	</root>
+</log4j:configuration>

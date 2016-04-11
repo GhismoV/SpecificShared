@@ -1,0 +1,25 @@
+{
+  "function_name": "nomeFunzione",
+  "function_descr": "Descrizione Funzione",
+  "session": {
+    "sess_id": "ksilsuhbcisuachbai"
+  },
+  "data_fields": {
+    "fields": [
+      {
+        "mandatory": "true",
+        "minlength": 1,
+        "maxlength": 30,
+        "type": "string",
+        "id": "cognome"
+      },
+      {
+        "mandatory": "true",
+        "minlength": 1,
+        "maxlength": 30,
+        "type": "string",
+        "id": "nome"
+      }
+    ]
+  }
+}
