@@ -1,0 +1,16 @@
+{
+  "function_name": "userreg",
+  "function_descr": "Registrazione Utente - Esito",
+  "session": {
+    "sess_id": ""
+  },
+  "data_fields": {
+    "fields": [
+      {
+        "id": "pippero",
+        "label": "Pippero",
+        "type": "string"
+      }
+    ]
+  }
+}

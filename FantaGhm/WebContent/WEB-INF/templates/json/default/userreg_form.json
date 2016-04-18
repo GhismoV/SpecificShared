@@ -1,0 +1,66 @@
+{
+  "function_name": "userreg",
+  "function_descr": "Registrazione Utente",
+  "session": {
+    "sess_id": ""
+  },
+  "data_fields": {
+    "fields": [
+      {
+        "id": "username",
+        "label": "Nome Utente",
+        "mandatory": "true",
+        "minlength": 1,
+        "maxlength": 50,
+        "type": "string"
+      },
+      {
+        "id": "email",
+        "label": "Indirizzo Email",
+        "mandatory": "true",
+        "minlength": 1,
+        "maxlength": 70,
+        "type": "string"
+      },
+      {
+        "id": "cognome",
+        "label": "Cognome",
+        "mandatory": "true",
+        "minlength": 1,
+        "maxlength": 45,
+        "type": "string"
+      },
+      {
+        "id": "nome",
+        "label": "Nome",
+        "mandatory": "true",
+        "minlength": 1,
+        "maxlength": 45,
+        "type": "string"
+      },
+      {
+        "id": "numcell",
+        "label": "Numero Cellulare",
+        "minlength": 1,
+        "maxlength": 20,
+        "type": "string"
+      },
+      {
+        "id": "canale",
+        "value":"Mob",
+        "hidden": true,
+        "minlength": 1,
+        "maxlength": 1,
+        "type": "string"
+      },
+      {
+        "id": "tp_cred",
+        "value":"U_P",
+        "hidden": true,
+        "minlength": 1,
+        "maxlength": 3,
+        "type": "string"
+      }
+    ]
+  }
+}
