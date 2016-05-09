@@ -16,6 +16,7 @@
 		app_complete_servlet_url: ${context.app_complete_servlet_url!}
 -->
 	
+		<h1>${lang.EHTML_LABEL_ERR_CD_009}</h1>
 	
 		<form id="form1" action="${context.app_complete_servlet_url!}outlogin/userreg/wsend" method="post">
 <#list bean.dataFields.fields as field>

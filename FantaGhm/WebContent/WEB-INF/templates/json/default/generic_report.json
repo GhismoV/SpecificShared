@@ -4,12 +4,11 @@
   "session": {
     "sess_id": ""
   },
-  "data_fields": {
-    "fields": [
+  "data_out": {
+    "entities": [
       {
-        "id": "pippero",
-        "label": "Pippero",
-        "type": "string"
+        "key": "msg",
+        "value": "LABEL_ERR_CD_000"
       }
     ]
   }

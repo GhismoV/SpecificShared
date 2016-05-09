@@ -8,7 +8,7 @@
     "fields": [
       {
         "id": "username",
-        "label": "Nome Utente",
+        "label": "LABEL_UTENTE_NOME",
         "mandatory": "true",
         "minlength": 1,
         "maxlength": 50,
@@ -16,7 +16,7 @@
       },
       {
         "id": "email",
-        "label": "Indirizzo Email",
+        "label": "LABEL_INDEMAIL",
         "mandatory": "true",
         "minlength": 1,
         "maxlength": 70,
@@ -24,7 +24,7 @@
       },
       {
         "id": "cognome",
-        "label": "Cognome",
+        "label": "LABEL_COGNOME",
         "mandatory": "true",
         "minlength": 1,
         "maxlength": 45,
@@ -32,7 +32,7 @@
       },
       {
         "id": "nome",
-        "label": "Nome",
+        "label": "LABEL_NOME",
         "mandatory": "true",
         "minlength": 1,
         "maxlength": 45,
@@ -40,7 +40,7 @@
       },
       {
         "id": "numcell",
-        "label": "Numero Cellulare",
+        "label": "LABEL_CELLULARE",
         "minlength": 1,
         "maxlength": 20,
         "type": "string"
